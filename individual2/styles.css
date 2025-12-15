@@ -1,0 +1,124 @@
+body {
+    font-family: Arial;
+    background: radial-gradient(white, lightgray);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+header {
+    background-color: #001f3f;
+    color: white;
+    padding: 20px;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    text-decoration: underline;
+}
+
+
+.album-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.album {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, margin-top 0.3s ease;
+}
+
+.album img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.album:hover {
+    transform: scale(1.2);
+    margin-top: 20px;
+}
+
+
+table {
+    width: 80%;
+    margin: 0 auto 50px;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #8f9fb0;
+    color: white;
+}
+
+
+.about-section {
+    position: relative;
+    padding: 40px;
+    text-align: left;
+}
+
+.float-box {
+    float: left;
+    width: 40%;
+    margin-right: 20px;
+}
+
+.float-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: rgb(120, 120, 150);
+}
+
+.position-demo {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    background-color: lightyellow;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #8f9fb0;
+    color: white;
+    padding: 15px;
+    font-size: 0.9em;
+}

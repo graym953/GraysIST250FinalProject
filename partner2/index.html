@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <a href="../index.html">← Back to Portfolio</a>
+</nav>
+
+    <h1 id="greeting">Hello User!</h1>
+    <p id="message">Welcome to my fantastic website. Have fun and customize this page below!</p>
+
+    <div class="customization-box">
+        <h2>Click some buttons and customize this page!</h2>
+        
+        <label for="nameInput">Enter your name:</label>
+        <input type="text" id="nameInput" placeholder="Your name here">
+
+        <label for="messageInput">Enter a message:</label>
+        <input type="text" id="messageInput" placeholder="Your message here">
+
+        <label for="colorSelect">Choose a background color:</label>
+        <select id="colorSelect">
+            <option value="#f0f4f8">Default (Soft Gray)</option>
+            <option value="#ffe8d6">Peach Cream</option>
+            <option value="#e9edc9">Olive Tint</option>
+            <option value="#caffbf">Mint Green</option>
+            <option value="#bde0fe">Sky Blue</option>
+            <option value="#ffd6ff">Lilac Pink</option>
+        </select>
+
+        <button id="submitBtn">Apply Changes</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-color: #f0f4f8;
+}
+
+
+h1 {
+    color: #2b2d42;
+    font-size: 2.7em;
+}
+
+p {
+    font-size: 1.2em;
+    color: #444;
+}
+
+
+.customization-box {
+    margin-top: 40px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: left;
+    width: 320px;
+    display: inline-block;
+}
+
+
+h2 {
+    color: #264653;
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #264653;
+}
+
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #bfc7d5;
+    background-color: #f9fafc;
+    font-size: 1em;
+}
+
+button {
+    display: block;
